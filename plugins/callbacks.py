@@ -49,8 +49,8 @@ async def cb_handler(client, query):
                 [
                     InlineKeyboardButton("☘︎ 𝙲𝚁𝙴𝙰𝚃𝙴𝚁", url="https://t.me/basildmx"),
                     InlineKeyboardButton("➪ 𝙰𝙱𝙾𝚄𝚃 𝙼𝙴", callback_data="about_data")
-                [
                 ],
+                [
                     InlineKeyboardButton("☮︎ 𝙲𝙷𝙰𝙽𝙽𝙴𝙻", url="https://t.me/dmxall_2"),
                     InlineKeyboardButton("𖠌 𝙶𝚁𝙾𝚄𝙿", url="https://t.me/dmx_chating_2_0")
                 ]
