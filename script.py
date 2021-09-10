@@ -2,7 +2,7 @@ class Script(object):
 
     START_MSG = """
 
-{} <b>ʜᴇʏ ᴛʜᴇʀᴇ ʜᴏᴡ ᴀʀᴇ ʏᴏᴜ [♡︎](https://telegra.ph/file/5bcd907681295e1ce5845.jpg)  \n ɪᴀᴍ ᴀ ᴠ7 ᴜɴʟɪᴍɪᴛᴇᴅ ғɪʟᴛᴇʀ ʙᴏᴛ ᴛʜᴀᴛ ʙᴜɪʟᴅ ғᴏʀ ᴅᴍx 2.0 🤗🤗 ʜᴇʏ ʙᴜᴅᴅʏ ᴅᴏɴᴛ ᴡᴀsᴛᴇ ʏᴏᴜʀ ᴛɪᴍᴇ ಠ_ಠ \n ʏᴏᴜ ᴄᴀɴᴛ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴏᴋᴋᴇ ᴛʜᴇɴ ʙʏᴇ \n ʟᴇᴛ ʏᴏᴜ ᴋɴᴏᴡ ᴍʏ sɪᴍᴘʟᴇ ᴄᴏᴍᴍᴀɴᴅs ᴜsᴇ <i>/help</i> 
+{} <b>ʜᴇʏ ᴛʜᴇʀᴇ ʜᴏᴡ ᴀʀᴇ ʏᴏᴜ \n\n ɪᴀᴍ ᴀ ᴠ7 ᴜɴʟɪᴍɪᴛᴇᴅ ғɪʟᴛᴇʀ ʙᴏᴛ ᴛʜᴀᴛ ʙᴜɪʟᴅ ғᴏʀ ᴅᴍx 2.0 🤗🤗 ʜᴇʏ ʙᴜᴅᴅʏ ᴅᴏɴᴛ ᴡᴀsᴛᴇ ʏᴏᴜʀ ᴛɪᴍᴇ ಠ_ಠ \n\n ʏᴏᴜ ᴄᴀɴᴛ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴏᴋᴋᴇ ᴛʜᴇɴ ʙʏᴇ \n\n ʟᴇᴛ ʏᴏᴜ ᴋɴᴏᴡ ᴍʏ sɪᴍᴘʟᴇ ᴄᴏᴍᴍᴀɴᴅs ᴜsᴇ <i>/help</i> 
 ɪғ ʏᴏᴜʀ ᴀʀᴇ ᴇxᴄɪᴛᴇᴅ ᴛᴏ sᴇᴇ ᴍᴇ ᴄʜᴇᴄᴋ ʜᴇʀᴇ</b>
 
 
@@ -10,51 +10,51 @@ class Script(object):
 
 
     HELP_MSG = """
-<i>Add me as admin in your group and start filtering :)</i>
+<i><b>𝙷𝙴𝚈 𝙱𝚄𝙳𝙳𝚈 𝙻𝙴𝚃 𝙼𝙴 𝚃𝙴𝙻𝙻 𝚈𝙾𝚄 𝙾𝙽𝙴 𝚃𝙷𝙸𝙽𝙶 𝙵𝙸𝚁𝚂𝚃 𝚈𝙾𝚄 𝙲𝙰𝙽𝚃 𝙰𝙳𝙳 𝙼𝙴 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 \n\n 𝚂𝙾 𝙽𝙾 𝙸𝙵 𝚈𝙾𝚄 𝚁𝙴𝙰𝙳 𝚃𝙷𝙸𝚂 𝙽𝙾 𝚄𝚂𝙴 \n 𝙸𝙵 𝚈𝙾𝚄 𝚆𝙰𝙽𝚃 𝚃𝙾 𝚁𝙴𝙰𝙳 𝚈𝙾𝚄 𝙲𝙰𝙽   𝙽𝙾 𝙿𝚁𝙾𝙱𝙻𝙴𝙼 𝚆𝙸𝚃𝙷 𝚃𝙷𝙰𝚃 (:-_-:)</i></b>
 
 
-<b>Basic Commands;</b>
+<b>𝔟𝔞𝔰𝔦𝔠 𝔠𝔬𝔪𝔪𝔞𝔫𝔡𝔰</b>
 
-/start - Check if I'm alive!
-/help - Command help
-/about - Something about me!
+❍ /start - ᴄʜᴇᴄᴋ ᴡʜᴇᴛʜᴇʀ ᴍʏ ʜᴇᴀʀᴛ ɪs ʙᴇᴀᴛɪɴɢ ᴏʀ ɴᴏᴛ
+/help - ᴛᴏ ᴋɴᴏᴡ ᴍʏ ᴄᴏᴍᴍᴀɴᴅs
+/about - ɪ ᴡɪʟʟ ᴛᴇʟʟ ʏᴏᴜ sᴏᴍᴇᴛʜɪɴɢ sᴛʀᴀɴɢᴇ ᴀʙᴏᴜᴛ ᴍᴇ ᴛᴏ ᴜ
 
 
-<b>Filter Commands;</b>
+<b>𝔣𝔦𝔩𝔱𝔢𝔯 </b>
 
-<code>/add name reply</code>  -  Add filter for name
+<code>/add </code>  -  ᴀᴅᴅ ғɪʟᴛᴇʀ ɪɴ ᴍʏ ᴅᴀᴛᴀʙᴀsᴇ
 
-<code>/del name</code>  -  Delete filter
+<code>/del name</code>  -  ᴅᴇʟᴇᴛᴇ ᴀɴʏ ғɪʟᴛᴇʀ ғʀᴏᴍ ᴍʏ ᴅᴀᴛᴀʙᴀsᴇ
 
-<code>/delall</code>  -  Delete entire filters (Group Owner Only!)
+<code>/delall</code>  -  ɪ ᴡɪʟʟ ᴅᴇʟᴇᴛᴇ ᴛʜᴇ ᴡʜᴏʟᴇ ғɪʟᴛᴇʀs ɪɴ 1 sᴇᴄ (ᴍʏ ᴄʀᴇᴀᴛᴇʀ ᴏɴʟʏ)
 
-<code>/viewfilters</code>  -  List all filters in chat
+<code>/viewfilters</code>  -  ɪ ᴡɪʟʟ sʜᴏᴡ ᴛᴏ ᴛʜᴇ ᴄᴜʀʀᴇɴᴛ ғɪʟᴛᴇʀs ɪɴ ᴍʏ ᴄʜᴀᴛ(ᴅᴀᴛᴀʙᴀsᴇ)
 
 
 <b>Connection Commands;</b>
 
-<code>/connect groupid</code>  -  Connect your group to my PM. You can also simply use,
+<code>/connect groupid</code>  -  𝐶𝑜𝑛𝑛𝑒𝑐𝑡 𝑦𝑜𝑢𝑟 𝑔𝑟𝑜𝑢𝑝 𝑡𝑜 𝑚𝑦 𝑝𝑚 (𝑖𝑡𝑠 𝑚𝑜𝑟𝑒 𝑠𝑖𝑚𝑝𝑙𝑒 𝑡ℎ𝑎𝑛 𝑠𝑒𝑛𝑑𝑖𝑛𝑔 𝑐𝑜𝑚𝑚𝑎𝑛𝑑𝑠 𝑖𝑛 𝑔𝑟𝑜𝑢𝑝𝑠)
 <code>/connect</code> in groups.
 
-<code>/connections</code>  -  Manage your connections.
+<code>/connections</code>  -   𝑇ℎ𝑖𝑠 𝑚𝑎𝑛𝑎𝑔𝑒 𝑦𝑜𝑢𝑟 𝑐𝑜𝑛𝑛𝑒𝑐𝑡𝑖𝑜𝑛𝑠
 
 
 <b>Extras;</b>
 
-/status  -  Shows current status of your bot (Auth User Only)
+/status  -  ⁱᵗˢ ˢʰᵒʷˢ ᵐʸ ᶜᵘʳʳᵉⁿᵗ ˢᵗᵃᵗᵘˢ 
 
-/id  -  Shows ID information
+/id  -  ˢʰᵒʷˢ ʸᵒᵘʳ ᵗᵉˡᵉᵍʳᵃᵐ ⁱᵈ (ᶜʰᵃᵗ ⁱᵈ)
 
-<code>/info userid</code>  -  Shows User Information. Use <code>/info</code> as reply to some message for their details!
+<code>/info userid</code>  -  𝘴𝘩𝘰𝘸𝘴 𝘶𝘴𝘦𝘳 𝘪𝘯𝘧𝘰𝘳𝘮𝘢𝘵𝘪𝘰𝘯𝘴 <code>/info</code> 𝘢𝘴 𝘳𝘦𝘱𝘭𝘢𝘺 𝘵𝘰 𝘴𝘰𝘮𝘦 𝘵𝘩𝘦𝘪𝘳 𝘮𝘦𝘴𝘴𝘢𝘨𝘦
 
 
-<b>© @TroJanzHEX</b>
+<b>© @dmx_chating_2_0 </b>
 """
 
 
-    ABOUT_MSG = """⭕️<b>My Name : TroJanz Filter Bot</b>
+    ABOUT_MSG = """⭕️<b>My Name : 𝙼𝙱𝙱 ᵈᵐˣ</b>
 
-⭕️<b>Creater :</b> @TroJanzHEX    
+⭕️<b>Creater :</b> @basildmx2    
 
 ⭕️<b>Language :</b> <code>Python3</code>
 
