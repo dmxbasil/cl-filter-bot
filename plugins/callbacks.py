@@ -30,7 +30,7 @@ async def cb_handler(client, query):
         keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("Command Help", callback_data="help_data")
+                    InlineKeyboardButton("🤢 𝑯𝒆𝒍𝒑", callback_data="help_data")
                 ]
             ]
         )
@@ -47,12 +47,12 @@ async def cb_handler(client, query):
         keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("☘︎ 𝙲𝚁𝙴𝙰𝚃𝙴𝚁", url="https://t.me/basildmx2"),
-                    InlineKeyboardButton("➪ 𝙰𝙱𝙾𝚄𝚃 𝙼𝙴", callback_data="about_data")
+                    InlineKeyboardButton("👿 𝙲𝚁𝙴𝙰𝚃𝙴𝚁", url="https://t.me/basildmx2"),
+                    InlineKeyboardButton("✌️ 𝙰𝙱𝙾𝚄𝚃 𝙼𝙴", callback_data="about_data")
                 ],
                 [
-                    InlineKeyboardButton("☮︎ 𝙲𝙷𝙰𝙽𝙽𝙴𝙻", url="https://t.me/dmxall_2"),
-                    InlineKeyboardButton("𖠌 𝙶𝚁𝙾𝚄𝙿", url="https://t.me/dmx_chating_2_0")
+                    InlineKeyboardButton("🥵 𝙲𝙷𝙰𝙽𝙽𝙴𝙻", url="https://t.me/joinchat/oElQ06pIs8wwYzQ1"),
+                    InlineKeyboardButton("🥶 𝙶𝚁𝙾𝚄𝙿", url="https://t.me/dmx_chating_2_0")
                 ]
             ]
         )
