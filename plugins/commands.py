@@ -1,6 +1,6 @@
 import os
 import random
-import math
+import math 
 import json
 import time
 import shutil
@@ -20,9 +20,36 @@ from script import Script
 from plugins.helpers import humanbytes
 from database.filters_mdb import filter_stats
 from database.users_mdb import add_user, find_user, all_users
-IMAGES = ["https://telegra.ph/file/e23c11245064b0b3aac24.jpg",
-          "https://telegra.ph/file/5da41a9724a3a2192bcbb.jpg",  
-          "https://telegra.ph/file/f4ed8af1f986ce49e007f.jpg",]
+IMAGES = ["https://telegra.ph/file/314393aaed1b03f957409.jpg",
+"https://telegra.ph/file/6823951eaa6f22cf298e2.jpg",
+"https://telegra.ph/file/10d8e871deefae4dec1e0.jpg",
+"https://telegra.ph/file/f0d9ee6132bf24c80d367.jpg",
+"https://telegra.ph/file/5859fbb8cc806ed7e10fa.jpg",
+"https://telegra.ph/file/73e6c7f3f4b2b8960f917.jpg",
+"https://telegra.ph/file/0cd8cb678e8f4150f2e8f.jpg",
+"https://telegra.ph/file/d3855c9acc95d75beea62.jpg",
+"https://telegra.ph/file/4121acd67fecd03290f69.jpg",
+"https://telegra.ph/file/a90421aba858f3ddef70b.jpg",
+"https://telegra.ph/file/18105df34ec9194b10e4e.jpg",
+"https://telegra.ph/file/354adf112b69fe24c7e62.jpg",
+"https://telegra.ph/file/4f8b55f91cf71f34f4f97.jpg",
+"https://telegra.ph/file/43269746d95a9a6b8e659.jpg",
+"https://telegra.ph/file/0030564889c33f0994890.jpg",
+"https://telegra.ph/file/8fc2426b7379b45f8728a.jpg",
+"https://telegra.ph/file/f8230d6ca88f3552bc5f3.jpg",
+"https://telegra.ph/file/5c9a1632b55c106129923.jpg",
+"https://telegra.ph/file/c2e18f839d4947eef20fa.jpg",
+"https://telegra.ph/file/2c4a22e7eb6e5235b8060.jpg",
+"https://telegra.ph/file/2b1e0c393308d36e7dfb5.jpg",
+"https://telegra.ph/file/fe69ef822ac9a2407f627.jpg",
+"https://telegra.ph/file/55f047d6e44f65fe2a42d.jpg",
+"https://telegra.ph/file/e9e29826122ba9e65729b.jpg",
+"https://telegra.ph/file/48f6119b69c282bc897a0.jpg",
+"https://telegra.ph/file/912a344c89ef3202312bf.jpg",
+"https://telegra.ph/file/12800b3ab63524dd2d050.jpg",
+"https://telegra.ph/file/cf59ce50400a93ec39cc8.jpg",
+"https://telegra.ph/file/e6d7699c9f87da2d2b703.jpg",
+"https://telegra.ph/file/051536aac58cb87279783.jpg",]
 
 @trojanz.on_message(filters.command('id') & (filters.private | filters.group))
 async def showid(client, message):
@@ -221,7 +248,14 @@ async def start(client, message):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("Command Help", callback_data="help_data")
+                   InlineKeyboardButton("⚠︎ 𝑯𝒆𝒍𝒑", callback_data="help_data")
+                ],
+                [
+                   InlineKeyboardButton("🥵 𝑮𝒓𝒐𝒖𝒑", url="https://t.me/dmx_chating_2_0"),
+                   InlineKeyboardButton("🤢 𝑺𝒐𝒖𝒓𝒄𝒆", url="https://t.me/dmx_chating_2_0")
+                ],
+                [
+
                 ]
             ]
         ),
@@ -247,12 +281,11 @@ async def help(client, message):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("☘︎ 𝙲𝚁𝙴𝙰𝚃𝙴𝚁", url="https://t.me/basildmx2"),
-                    InlineKeyboardButton("➪ 𝙰𝙱𝙾𝚄𝚃 𝙼𝙴", callback_data="about_data")
+                    InlineKeyboardButton("🥶 𝑮𝒓𝒐𝒖𝒑", url="https://t.me/dmx_chating_2_0"),
+                    InlineKeyboardButton("🤢 𝑨𝒃𝒐𝒖𝒕 𝒎𝒆", callback_data="about_data")
                 ],
                 [
-                    InlineKeyboardButton("☮︎ 𝙲𝙷𝙰𝙽𝙽𝙴𝙻", url="https://t.me/dmxall_2"),
-                    InlineKeyboardButton("𖠌 𝙶𝚁𝙾𝚄𝙿", url="https://t.me/dmx_chating_2_0")
+                    InlineKeyboardButton("☠︎︎ ᴍʏ ᴄʀᴇᴀᴛᴏʀ", url="https://t.me/basildmx2")
                 ]
             ]
         ),
@@ -269,11 +302,11 @@ async def about(client, message):
             [
                 [
                     InlineKeyboardButton(
-                        "✖️ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ✖️", url="https://t.me/dmx_chating_2_0")
+                        "〰️ 𝚂𝙾𝚄𝚁𝙲𝙴 𝙲𝙾𝙳𝙴 〰️", url="https://t.me/dmx_chating_2_0")
                 ],
                 [
-                    InlineKeyboardButton("BACK", callback_data="help_data"),
-                    InlineKeyboardButton("CLOSE", callback_data="close_data"),
+                    InlineKeyboardButton("🔙 𝙱𝚊𝚌𝚔", callback_data="help_data"),
+                    InlineKeyboardButton("𝙲𝚕𝚘𝚜𝚎 🔐", callback_data="close_data")
                 ]                
             ]
         ),
