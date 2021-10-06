@@ -302,7 +302,7 @@ async def about(client, message):
             [
                 [
                     InlineKeyboardButton(
-                        "〰️ 𝚂𝙾𝚄𝚁𝙲𝙴 𝙲𝙾𝙳𝙴 〰️", url="https://t.me/dmx_chating_2_0")
+                        "❍ 𝑺𝒐𝒖𝒄𝒓𝒆 𝒄𝒐𝒅𝒆 ❍", url="https://t.me/dmx_chating_2_0")
                 ],
                 [
                     InlineKeyboardButton("🔙 𝙱𝚊𝚌𝚔", callback_data="help_data"),
