@@ -20,7 +20,7 @@ from script import Script
 from plugins.helpers import humanbytes
 from database.filters_mdb import filter_stats
 from database.users_mdb import add_user, find_user, all_users
-IMAGES =["https://telegra.ph/file/e23c11245064b0b3aac24.jpg",
+IMAGES = ["https://telegra.ph/file/e23c11245064b0b3aac24.jpg",
          "https://telegra.ph/file/5da41a9724a3a2192bcbb.jpg",  
          "https://telegra.ph/file/f4ed8af1f986ce49e007f.jpg",]
 
