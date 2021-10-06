@@ -248,7 +248,7 @@ async def start(client, message):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                   InlineKeyboardButton("⚠︎ 𝑯𝒆𝒍𝒑", callback_data="help_data")
+                   InlineKeyboardButton("❥︎ 𝑯𝒆𝒍𝒑", callback_data="help_data")
                 ],
                 [
                    InlineKeyboardButton("🥵 𝑮𝒓𝒐𝒖𝒑", url="https://t.me/dmx_chating_2_0"),
