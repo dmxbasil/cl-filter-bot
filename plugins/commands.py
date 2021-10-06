@@ -1,4 +1,5 @@
 import os
+import random
 import math
 import json
 import time
@@ -19,7 +20,9 @@ from script import Script
 from plugins.helpers import humanbytes
 from database.filters_mdb import filter_stats
 from database.users_mdb import add_user, find_user, all_users
-
+IMAGES =["https://telegra.ph/file/e23c11245064b0b3aac24.jpg",
+         "https://telegra.ph/file/5da41a9724a3a2192bcbb.jpg",  
+         "https://telegra.ph/file/f4ed8af1f986ce49e007f.jpg",]
 
 @trojanz.on_message(filters.command('id') & (filters.private | filters.group))
 async def showid(client, message):
@@ -211,9 +214,10 @@ async def bot_status(client,message):
 
 @trojanz.on_message(filters.command('start') & filters.private)
 async def start(client, message):
-    await message.reply_text(
-        text=Script.START_MSG.format(message.from_user.mention),
-        disable_web_page_preview=True,
+    await message.reply_photo(
+        photo = random.choice(IMAGES),
+        caption=Script.START_MSG.format(message.from_user.mention),
+        parse_mode="HTML",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
