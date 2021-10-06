@@ -70,7 +70,7 @@ async def cb_handler(client, query):
             [
                 [
                     InlineKeyboardButton(
-                        "✖️ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ✖️", url="https://t.me/dmx_chating_2_0")
+                        "❍ 𝑺𝒐𝒖𝒄𝒓𝒆 𝒄𝒐𝒅𝒆 ❍", url="https://t.me/dmx_chating_2_0")
                 ],
                 [
                     InlineKeyboardButton("BACK", callback_data="help_data"),
