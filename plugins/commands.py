@@ -223,8 +223,8 @@ async def start(client, message):
                    InlineKeyboardButton("❥︎ 𝑯𝒆𝒍𝒑", callback_data="help_data")
                 ],
                 [
-                   InlineKeyboardButton("🥵 𝑮𝒓𝒐𝒖𝒑", url="https://t.me/dmx_chating_2_0"),
-                   InlineKeyboardButton("🤢 𝑺𝒐𝒖𝒓𝒄𝒆", url="https://t.me/dmx_chating_2_0")
+                   InlineKeyboardButton("🥵 𝑮𝒓𝒐𝒖𝒑", url="https://t.me/cinema_link_group"),
+                   InlineKeyboardButton("🤢 𝑺𝒐𝒖𝒓𝒄𝒆", url="https://t.me/cinema_link_group")
                 ],
                 [
 
@@ -253,11 +253,11 @@ async def help(client, message):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("🥶 𝑮𝒓𝒐𝒖𝒑", url="https://t.me/dmx_chating_2_0"),
+                    InlineKeyboardButton("🥶 𝑮𝒓𝒐𝒖𝒑", url="https://t.me/cinema_link_group"),
                     InlineKeyboardButton("🤢 𝑨𝒃𝒐𝒖𝒕 𝒎𝒆", callback_data="about_data")
                 ],
                 [
-                    InlineKeyboardButton("☠︎︎ ᴍʏ ᴄʀᴇᴀᴛᴏʀ", url="https://t.me/basildmx2")
+                    InlineKeyboardButton("☠︎︎ ᴍʏ ᴄʀᴇᴀᴛᴏʀ", url="https://t.me/bibin_indian_rock")
                 ]
             ]
         ),
@@ -274,7 +274,7 @@ async def about(client, message):
             [
                 [
                     InlineKeyboardButton(
-                        "❍ 𝑺𝒐𝒖𝒄𝒓𝒆 𝒄𝒐𝒅𝒆 ❍", url="https://t.me/dmx_chating_2_0")
+                        "❍ 𝑺𝒐𝒖𝒄𝒓𝒆 𝒄𝒐𝒅𝒆 ❍", url="https://t.me/cinema_linl_group")
                 ],
                 [
                     InlineKeyboardButton("🔙 𝙱𝚊𝚌𝚔", callback_data="help_data"),
