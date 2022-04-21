@@ -48,7 +48,7 @@ class Script(object):
 
 ➪ /info (𝑢𝑠𝑒𝑟 𝑖𝑑)  \n\n➪ /info (𝑎𝑠 𝑟𝑒𝑝𝑙𝑎𝑦) 
 
-<b>© [𝑫𝑴𝑿](https://t.me/dmx_chating_2_0) </b>
+<b>© [ᴄʟ ɢʀᴏᴜᴩ](https://t.me/cinema_link_group) </b>
 
 """
 
